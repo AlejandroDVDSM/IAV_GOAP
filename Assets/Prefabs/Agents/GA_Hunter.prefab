@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &753586543705574030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.1771226
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.3363705
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      propertyPath: m_Name
+      value: GA_Hunter
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5730027300467622234}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1838448576323003993}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4595473674188800838}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8572043877247244308}
+  m_SourcePrefab: {fileID: 100100000, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+--- !u!1 &483062916952160223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ac8771056659bb649b0dbf8fcf5b32bb, type: 3}
+  m_PrefabInstance: {fileID: 753586543705574030}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &5730027300467622234
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483062916952160223}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1.8
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.8
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1838448576323003993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483062916952160223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47669052b851304fb452e3d792796ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions: []
+  currentAction: {fileID: 0}
+--- !u!114 &4595473674188800838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483062916952160223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa255457cfb83f449ad1583fc5e20f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: DestroyGravestone
+  cost: 2
+  target: {fileID: 0}
+  targetTag: 
+  duration: 1.4
+  preConditions:
+  - key: IsRested
+    value: 0
+  afterEffects:
+  - key: IsInGravestone
+    value: 1
+  agent: {fileID: 0}
+  running: 0
+--- !u!114 &8572043877247244308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483062916952160223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75217f3a48d58e74ea6aba0de359a69f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actionName: RecoverEnergy
+  cost: 1
+  target: {fileID: 0}
+  targetTag: 
+  duration: 0.8
+  preConditions:
+  - key: IsExhausted
+    value: 0
+  afterEffects:
+  - key: IsRested
+    value: 0
+  agent: {fileID: 0}
+  running: 0
