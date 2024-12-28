@@ -27,3 +27,7 @@ The goal of the hunter is to break the gravestones in the graveyard. When a grav
 2. GACT_RecoverEnergy: breaking gravestones can exhaust the hunter. So from time to time he must eat a pumpkin to restore his energy.
 
 https://github.com/user-attachments/assets/f9a98d28-dab8-4cd0-8740-2bec52a857b3
+
+## Credits
+
+All assets were made by Kenney: https://kenney.nl/assets
